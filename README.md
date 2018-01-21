@@ -7,8 +7,11 @@ An example of [wikipedia-dump-loader](https://github.com/nwtgck/wikipedia-dump-l
 
 ```bash
 cd <this repo>
-sbt run
+sbt stage 
+./target/universal/stage/bin/wikipedia-dump-loader-example-scala
 ```
+
+NOTE: `sbt run` doesn't work (I don't know the reason), However, run by IntelliJ is fine. 
 
 ## Main.scala
 

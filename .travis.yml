@@ -5,8 +5,10 @@ scala:
    - 2.11.12
 
 script:
+  # sbt stage
+  - sbt stage
   # NOTE: This is just a working-test
-  sbt ++$TRAVIS_SCALA_VERSION run
+  - ./target/universal/stage/bin/wikipedia-dump-loader-example-scala
 
 before_cache:
   # Tricks to avoid unnecessary cache updates

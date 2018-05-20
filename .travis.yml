@@ -8,7 +8,7 @@ script:
   # sbt stage
   - sbt stage
   # NOTE: This is just a working-test
-  - ./target/universal/stage/bin/wikipedia-dump-loader-example-scala
+  - ./target/universal/stage/bin/spark-wikipedia-dump-loader-example
 
 before_cache:
   # Tricks to avoid unnecessary cache updates

@@ -1,5 +1,5 @@
 # spark-wikipedia-dump-loader-example
-[![Build Status](https://travis-ci.org/nwtgck/wikipedia-dump-loader-example-scala.svg?branch=master)](https://travis-ci.org/nwtgck/wikipedia-dump-loader-example-scala)
+[![Build Status](https://travis-ci.org/nwtgck/spark-wikipedia-dump-loader-example.svg?branch=master)](https://travis-ci.org/nwtgck/spark-wikipedia-dump-loader-example)
 
 An example of [spark-wikipedia-dump-loader](https://github.com/nwtgck/spark-wikipedia-dump-loader)
 
